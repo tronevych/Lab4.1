@@ -45,7 +45,7 @@ public class Main {
           /*@param lines return text return
           String array of lines from file logs.txt*/
 
-        String[] lines = text.split(System.lineSeparator());
+        String[] lines = text.split("\\n");
 
         System.out.println("\n This file logs.txt contains: " +
                 lines.length + " lines");
